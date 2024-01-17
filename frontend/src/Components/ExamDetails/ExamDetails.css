@@ -25,3 +25,12 @@
 .examtagline{
     font-weight: normal;
 }
+.ExamDescription-container{
+    display: grid;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 95%;
+}

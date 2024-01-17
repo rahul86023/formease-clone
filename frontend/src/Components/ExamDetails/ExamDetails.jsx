@@ -36,7 +36,7 @@ function ExamDetails({ data }) {
           <button>Apply Now</button>
         </div>
       </div>
-      <div className='ExamDescription container'>
+      <div className='ExamDescription-container'>
         <div className='Description'>
           <h1>Exam Description</h1>
           <div className='ExamPoints'>
@@ -68,7 +68,8 @@ function ExamDetails({ data }) {
           </div>
         </div>
       </div>
-      </div>}
+      </div>
+      }
     </>
   );
 }

@@ -1,8 +1,13 @@
+import vit from './images/viteee.webp'
+import srm from './images/srmjee.webp'
+import ts from './images/tseamcet.jpg'
 import { v4 as uuidv4 } from "uuid";
+
 export const RecentExam = [
   {
+    examName: "VITEEE 2024",
     id: uuidv4(),
-    examName: "VITEEE 2023",
+    imagename:vit,
     examTagLine: "Vellore Institute of Technology",
     numberOfStudents: "More than 10 Lakhs",
     examFees: 1500,
@@ -34,8 +39,9 @@ export const RecentExam = [
     ],
   },
   {
+    examName: "SRMJEE 2024",
+    imagename:srm,
     id: uuidv4(),
-    examName: "SRMJEE 2023",
     examTagLine: "SRMST",
     numberOfStudents: "More than 10 Lakhs",
     examFees: 1000,
@@ -67,8 +73,9 @@ export const RecentExam = [
     ],
   },
   {
+    examName: "TS EAMCT 2024",
+    imagename:ts,
     id: uuidv4(),
-    examName: "TS EAMCT 2023",
     examTagLine: "TSCHE",
     numberOfStudents: "More than 10 Lakhs",
     examFees: 1000,
@@ -99,4 +106,5 @@ export const RecentExam = [
     JEE Main 2023 April Session: NTA released the JEE Main 2023 session I will be conducted between Ist April 2023 and 15th April 2023`,
     ],
   },
+
 ];

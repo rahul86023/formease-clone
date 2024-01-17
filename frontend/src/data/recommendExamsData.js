@@ -1,8 +1,13 @@
+
+import jeeImage from './images/jeemain.jpg'
+import cse from './images/Civil-Service-Examination-1.webp'
+import ssc from './images/SSC CGL 2023.jpg'
 import { v4 as uuidv4 } from "uuid";
 export const RecommendExam = [
   {
     id: uuidv4(),
-    examName: "JEE Mains 2023",
+    examName: "JEE Mains 2024",
+    imagename: jeeImage,
     examTagLine: "National Testing Agency",
     numberOfStudents: "More than 20 Lakhs",
     examFees: 1200,
@@ -35,7 +40,8 @@ export const RecommendExam = [
   },
   {
     id: uuidv4(),
-    examName: "civil service 2023",
+    examName: "Civil Service 2024",
+    imagename: cse,
     examTagLine: "Union public service commission",
     numberOfStudents: "More than 15 Lakhs",
     examFees: 1500,
@@ -68,7 +74,8 @@ export const RecommendExam = [
   },
   {
     id: uuidv4(),
-    examName: "ssc cgl 2023",
+    examName: "SSC CGL 2024",
+    imagename: ssc,
     examTagLine: "Staff selection commision",
     numberOfStudents: "More than 20 Lakhs",
     examFees: 1000,

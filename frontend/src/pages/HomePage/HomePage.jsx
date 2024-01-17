@@ -9,9 +9,9 @@ function HomePage(){
     return (
         <>
         <ImageSlider/>
-      <h1>Recommended Exams</h1>
+      <h2 class="container">Recommended Exams</h2>
       <ExamComponent data={RecommendExam}/>
-      <h1>Recent Exams</h1>
+      <h2 class="container">Recent Exams</h2>
       <ExamComponent data={RecentExam}/>
 
      

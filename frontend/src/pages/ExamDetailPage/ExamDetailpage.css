@@ -1,0 +1,12 @@
+.ExamDetailContainer{
+    display:flex;
+    width: 100%;
+   
+}
+.left-bar{
+    width: 50%;
+    
+}
+.right-bar{
+    width: 50%;
+}

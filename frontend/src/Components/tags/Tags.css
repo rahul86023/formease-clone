@@ -1,0 +1,10 @@
+.tags-name{
+    display: flex;
+    justify-content:space-evenly;
+}
+.tag-items{
+    padding: 15px;
+    border: 1px solid grey;
+    box-shadow: 0 4px 8px rgba(120, 117, 117, 0.1);
+    border-radius: 15%;
+}

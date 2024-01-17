@@ -1,5 +1,6 @@
 import React from 'react'
 import './RightBar.css'
+import { Link } from 'react-router-dom';
 function RightBar({data}) {
   return (
     <div className='right-bar-component'>
@@ -27,7 +28,12 @@ function RightBar({data}) {
                           {item.examFees}
                      </div>
                  </div>
+                  {/* "View Details" Link */}
+          <Link to={`/exam-details/${item.id}`} className="view-details-link">
+            View Details
+          </Link>
              </div>
+             
          ))}
          
     </div>

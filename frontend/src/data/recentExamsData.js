@@ -1,5 +1,7 @@
+import { v4 as uuidv4 } from "uuid";
 export const RecentExam = [
   {
+    id: uuidv4(),
     examName: "VITEEE 2023",
     examTagLine: "Vellore Institute of Technology",
     numberOfStudents: "More than 10 Lakhs",
@@ -32,6 +34,7 @@ export const RecentExam = [
     ],
   },
   {
+    id: uuidv4(),
     examName: "SRMJEE 2023",
     examTagLine: "SRMST",
     numberOfStudents: "More than 10 Lakhs",
@@ -64,6 +67,7 @@ export const RecentExam = [
     ],
   },
   {
+    id: uuidv4(),
     examName: "TS EAMCT 2023",
     examTagLine: "TSCHE",
     numberOfStudents: "More than 10 Lakhs",

@@ -1,5 +1,7 @@
+import { v4 as uuidv4 } from "uuid";
 export const RecommendExam = [
   {
+    id: uuidv4(),
     examName: "JEE Mains 2023",
     examTagLine: "National Testing Agency",
     numberOfStudents: "More than 20 Lakhs",
@@ -32,6 +34,7 @@ export const RecommendExam = [
     ],
   },
   {
+    id: uuidv4(),
     examName: "civil service 2023",
     examTagLine: "Union public service commission",
     numberOfStudents: "More than 15 Lakhs",
@@ -64,6 +67,7 @@ export const RecommendExam = [
     ],
   },
   {
+    id: uuidv4(),
     examName: "ssc cgl 2023",
     examTagLine: "Staff selection commision",
     numberOfStudents: "More than 20 Lakhs",
